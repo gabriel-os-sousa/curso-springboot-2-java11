@@ -31,7 +31,6 @@ public class Category implements Serializable{
 	public Category() {
 	}
 
-
 	public Category(Long id, String name) {
 		super();
 		this.id = id;
@@ -43,16 +42,13 @@ public class Category implements Serializable{
 		return id;
 	}
 
-
 	public void setId(Long id) {
 		this.id = id;
 	}
 
-
 	public String getName() {
 		return name;
 	}
-
 
 	public void setName(String name) {
 		this.name = name;
@@ -65,7 +61,6 @@ public class Category implements Serializable{
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
